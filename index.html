@@ -144,39 +144,32 @@
                     <h1 class="txt-center">PRODUCT TYPES</h1>
                     <p class="txt-center caption">Gain insight to green energy</p>
                     <hr>
-                    <br><br>
-                    <p class="center-align">Fuser provides customers with real time, accurate quotes, for products and services related to the reduction of energy costs.
-
-                    Using Fuser allows you to find the most competitive deals, saving you time and money.
-
-                    Fuser provides all the information you need in one easy-to-use portal.</p>
                 </div>
                 <div class="col-xs-1"></div>
                 
                 
                 <!-- owl carosel-->
-                <!-- Set up your HTML -->
                 <div id="owl-demo" class="owl-carousel">
                     <div>
-                        <img class='lazyOwl' data-src="http://placehold.it/200x200/42bdc2/FFFFFF&text=1st Row" alt="" style="background-color:red;"/>
-                        <img class='lazyOwl' data-src="http://placehold.it/200x200/42bdc2/FFFFFF&text=2nd Row" alt="" />
+                        <p class="center-align">Solar geysers come in the form of direct or indirect systems, using either solar radiation or a form of anit-freeze to heat water, respectively. Solar geysers are further split into either active (pumped) or inactive (thermo-siphon) systems which are installed in either a close-coupled or split-systems configuration. Solar geysers can be installed on a household as new systems or retrofitted to existing geysers. All solar geysers are rated by the size of the storage tank e.g. 100L, 150L, etc.</p>
                     </div>
                     <div>
-                        <img class='lazyOwl' data-src="http://placehold.it/200x200/42bdc2/FFFFFF&text=1st Row" alt="" />
-                        <img class='lazyOwl' data-src="http://placehold.it/200x200/42bdc2/FFFFFF&text=2nd Row" alt="" />
+                        <p class="center-align">Gas geysers differ from solar or conventional geysers in that they heat water at the point-of-use and as-and-when-needed through the use of a pilot flame/burner contained within the geyser. All gas geysers are rated by the flow rate required by the type of use e.g. 6L/min, 10L/min, etc.</p>
                     </div>
                     <div>
-                        <img class='lazyOwl' data-src="http://placehold.it/200x200/42bdc2/FFFFFF&text=1st Row" alt="" />
-                        <img class='lazyOwl' data-src="http://placehold.it/200x200/42bdc2/FFFFFF&text=2nd Row" alt="" />
+                        <p class="center-align">Solar PV Kits are solar systems made up of pre-selected components, and come in the form of grid-tie or off-grid systems. Grid-tie systems usually consist of solar panels and grid-tie inverters which tie into your main power supply, supplementing your electricity supply with solar. Off-grid systems contain additional components such as charge controllers and battery banks, designed to power your house independently of grid electricity. Some grid-tie systems also make use of batteries, depending on the need of the user. All Solar PV Kits are rated in kW and are based on the average power consumption of your household in month.</p>
                     </div>
-                    <div>
-                        <img class='lazyOwl' data-src="http://placehold.it/200x200/42bdc2/FFFFFF&text=1st Row" alt="" />
-                        <img class='lazyOwl' data-src="http://placehold.it/200x200/42bdc2/FFFFFF&text=2nd Row" alt="" />
-                    </div>
-                    <div>
-                        <img class='lazyOwl' data-src="http://placehold.it/200x200/42bdc2/FFFFFF&text=1st Row" alt="" />
-                        <img class='lazyOwl' data-src="http://placehold.it/200x200/42bdc2/FFFFFF&text=2nd Row" alt="" />
-                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- FOOTER -->
+        <div class="col-xs-12" style="margin-top:170px;">
+            <div class="row quote">
+                <div class="scew-left-to-right-three"></div>
+                <div class="scew-right-to-left-three"></div>
+                <div class="footer">
+                    <h2 class="txt-center white">Do not miss out on a great opportunity</h2>
                 </div>
             </div>
         </div>
@@ -193,26 +186,26 @@
         <script>
             
             
-        $(document).ready(function () {
-            $("#owl-demo").owlCarousel({
-                navigation: true,
-                pagination: true,
-                lazyLoad: true
-            });
-        });
+//        $(document).ready(function () {
+//            $("#owl-demo").owlCarousel({
+//                navigation: true,
+//                pagination: true,
+//                lazyLoad: true,
+//            });
+//        });
 
-//    $(document).ready(function() {
-//
-//      var owl = $("#owl-demo");
-//
-//      owl.owlCarousel({
-//          items : 10, //10 items above 1000px browser width
-//          itemsDesktop : [1000,5], //5 items between 1000px and 901px
-//          itemsDesktopSmall : [900,3], // betweem 900px and 601px
-//          itemsTablet: [600,2], //2 items between 600 and 0
-//          itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
-//      });
-//    });
+    $(document).ready(function() {
+
+      var owl = $("#owl-demo");
+
+      owl.owlCarousel({
+          items : 1, 
+          itemsDesktop : 1,
+          itemsDesktopSmall : 1, 
+          itemsTablet: 1,
+          itemsMobile : 1 
+      });
+    });
     </script>
 </body>
 </html>
