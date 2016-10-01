@@ -101,6 +101,84 @@
          margin-top:200px;
     }
 }
-/*768*/
-/*992*/
+
+/**********************/
+/*small*/
+/**********************/
+@media (min-width:769px) and (max-width:992px) {
+    p {
+        font-size: 16px !important;
+    }
+     .hero {
+        height:700px !important;
+    } 
+    .hero-content > img {
+        width:40%;
+        margin-top:0%;
+        margin-bottom: 5%;
+    }
+    .hero-content > h1 {
+        font-size: 25px !important;
+        margin-bottom: 40px;
+    }
+    /*section2*/
+    .about {
+        margin-top:10%;
+        margin-bottom: 5%;
+    }
+    /*section3*/
+    .scew-left-to-right:before{
+        /*was 200*/
+        height: 150px; 
+    }
+    .scew-right-to-left:before {
+        height: 200px;
+    }
+    .why-choose-p {
+        margin-top:35%;
+    }
+    /*section3*/
+    .quote {
+        margin-top:80px;
+    }
+    .g-quote > h2{
+        margin-top: -260px !important;
+    }
+    .scew-right-to-left-two:before {
+        height:250px;
+        margin-top:-280px;
+    }
+    /*section 4*/
+    .products {
+         margin-top:200px;
+    }
+}
+
+@media (min-width:769px) and (max-width:831px) {
+     .triangle-down{
+        padding-top: 35% !important;
+    }
+        .why-choose {
+         margin-top:-40%;
+    }
+}
+
+@media (min-width:832px) and (max-width:891px) {
+     .triangle-down{
+        padding-top: 33% !important;
+    }
+        .why-choose {
+         margin-top:-36%;
+    }
+}
+
+@media (min-width:892px) and (max-width:992px) {
+     .triangle-down{
+        padding-top: 30% !important;
+    }
+    .why-choose {
+         margin-top:-33%;
+    }
+}
+
 /*1200*/
