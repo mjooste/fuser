@@ -470,6 +470,8 @@ img.scew-img {
     height:500px;
     padding: 10px;
 	color: #FFF;
+    position: relative;
+    z-index: 400;
 }
 
 
