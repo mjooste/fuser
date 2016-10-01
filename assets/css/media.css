@@ -1,0 +1,53 @@
+/*phones*/
+@media (max-width:480px) {
+    .hero {
+        height:600px !important;
+    }  
+    .hero-content > img {
+        width:60%;
+        margin-top:0%;
+        margin-bottom: 10%;
+    }
+    .hero-content > h1 {
+        font-size: 25px !important;
+        margin-bottom: 40px;
+    }
+    /*section2*/
+    .about {
+        margin-top:20%;
+        margin-bottom: 10%;
+    }
+    /*section3*/
+    .scew-left-to-right:before{
+        /*was 200*/
+        height: 100px; 
+    }
+    .scew-right-to-left:before {
+        height: 100px;
+    }
+    .why-choose {
+         margin-top:-250px;
+    }
+    .why-choose-p {
+        margin-top:150px;
+    }
+    /*section3*/
+    .quote {
+        margin-top:50px;
+    }
+    .g-quote > h2{
+        margin-top: -280px !important;
+    }
+    .scew-right-to-left-two:before {
+        height:250px;
+        margin-top:-280px;
+    }
+    /*section 4*/
+    .products {
+         margin-top:200px;
+    }
+}
+
+/*768*/
+/*992*/
+/*1200*/
