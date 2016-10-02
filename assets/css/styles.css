@@ -461,6 +461,15 @@ img.scew-img {
     padding: 0px 2px
 }
 
+/**************************/
+/*FORM CONSTROL */
+/*************************/
+
+.form-control {
+    background-color: #262626 !important;
+    border-radius: 0px !important;
+    padding:20px !important;
+}
 
 /**************************/
 /*FOOTER */
@@ -473,6 +482,9 @@ img.scew-img {
     position: relative;
     z-index: 400;
 }
+
+
+
 
 
 body {

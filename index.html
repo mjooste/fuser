@@ -178,40 +178,58 @@
                     <h1 class="txt-center white">GET IN TOUCH</h1>
                     <p class="txt-center caption white">Send us a message or look us up on social media</p>
                     <hr class="hr-white">
-                    
-                    <div class="col-xs-12"></div>
-                    <div class="col-xs-12"></div>
-                    <div class="col-xs-12"></div>
-                    
-                    <form id="contact-form" method="post" action="contact.php" role="form">
+                    <br><br>
+                    <div class="col-xs-1"></div>
+                    <div class="col-xs-10">
+                        <form id="contact-form" method="post" action="contact.php" role="form" class="row">
 
                         <div class="messages"></div>
+                        <div class="controls"> 
 
-                        <div class="controls">          
-                        <div class="form-group">
-                            <label class="sr-only" for="form_name">Full Name</label>
-                            <input id="form_name" type="text" name="name" class="r-form-first-name form-control" placeholder="Full Name" required="required" data-error="Full name is required">
-                            <div class="help-block with-errors"></div>
+                        <div class="col-xs-6">
+                            <div class="form-group">
+                                <label class="sr-only" for="form_name">Name</label>
+                                <input id="form_name" type="text" name="name" class="r-form-first-name form-control" placeholder="Name" required="required" data-error="First name is required">
+                                <div class="help-block with-errors"></div>
+                            </div>
                         </div>
-                        <div class="form-group mrt-20">
-                            <label class="sr-only" for="form_email">Email</label>
-                            <input id="form_email" type="email" name="email" class="r-form-email form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
-                            <div class="help-block with-errors"></div>
+                        <div class="col-xs-6">
+                            <div class="form-group">
+                                <label class="sr-only" for="form_name">Surname</label>
+                                <input id="form_name" type="text" name="surname" class="r-form-first-name form-control" placeholder="Surname" required="required" data-error="Surname is required">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div> 
+                        <div class="col-xs-6">
+                            <div class="form-group">
+                                <label class="sr-only" for="form_name">Company Name</label>
+                                <input id="form_name" type="text" name="company" class="r-form-first-name form-control" placeholder="Company Name" required="required" data-error="Surname is required">
+                                <div class="help-block with-errors"></div>
+                            </div>
                         </div>
-                        <div class="form-group mrt-20">
-                            <label class="sr-only" for="form_phone">Contact Number</label>
-                            <input id="form_phone" type="tel" name="phone" class="r-form-last-name form-control" placeholder="Contact Number">
-                            <div class="help-block with-errors"></div>
+                        <div class="col-xs-6">
+                             <div class="form-group mrt-20">
+                                <label class="sr-only" for="form_email">Email</label>
+                                <input id="form_email" type="email" name="email" class="r-form-email form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
                         </div>
-                        <div class="form-group mrt-20">
-                            <label class="sr-only" for="form_message">Message</label>
-                            <textarea id="form-message" name="message" placeholder="Message" class="r-form-about-yourself form-control" required data-error="Please, leave us a message."></textarea>
-                            <div class="help-block with-errors"></div>
+                        <div class="col-xs-12">
+                            <div class="form-group mrt-20">
+                                <label class="sr-only" for="form_message">Message</label>
+                                <textarea id="form-message" name="message" placeholder="Message" class="r-form-about-yourself form-control" required data-error="Please, leave us a message."></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
                         </div>
-                        <button type="submit" class="btn btn-grey mrt-30 btn-send" value="Send message">SEND MESSAGE</button>
+                        <div class="col-xs-12">
+                             <button type="submit" class="btn btn-grey mrt-30 btn-send" value="Send message" style="width:100%;">SEND MESSAGE</button>
                         </div>
-
+                        
+                        </div>
                     </form>
+                    </div>
+                    <div class="col-xs-1"></div>
+                    
                 </div>
             </div>
         </div>
