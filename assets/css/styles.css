@@ -269,8 +269,17 @@ hr {
     border-bottom: 10px;
     border-radius: 0px !important;
     font-size: 18px !important;
-    font-family: 'Open Sans', sans-serif; 
-    
+    font-family: 'Open Sans', sans-serif;   
+}
+
+.btn-blue {
+    width:100%;
+    background-color:#00A7C9 !important;
+    padding:15px !important;
+    border: none !important;
+    border-radius: 0px !important;
+    font-size: 18px !important;
+    font-family: 'Open Sans', sans-serif;   
 }
 
 /**************************/
@@ -476,13 +485,24 @@ img.scew-img {
 /*************************/
 .footer {
     background: #262626;
-    height:500px;
+    height:800px;
     padding: 10px;
 	color: #FFF;
     position: relative;
     z-index: 400;
 }
 
+.social-m {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.copywrite {
+    background-color: #000 !important;
+    padding: 20px 10px 10px 10px;
+    text-align: center;
+}
 
 
 
