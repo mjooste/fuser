@@ -144,22 +144,28 @@
                     <h1 class="txt-center">PRODUCT TYPES</h1>
                     <p class="txt-center caption">Gain insight to green energy</p>
                     <hr>
-                </div>
-                <div class="col-xs-1"></div>
-                
-                
-                <!-- owl carosel-->
+                    
+                    <!-- owl carosel-->
                 <div id="owl-demo" class="owl-carousel">
                     <div>
+                        <img class="center" src="assets/images/01.png" style="width:100px; margin-top:50px;">
+                        <h2 class="txt-center">Solar Geysers</h2>
                         <p class="center-align">Solar geysers come in the form of direct or indirect systems, using either solar radiation or a form of anit-freeze to heat water, respectively. Solar geysers are further split into either active (pumped) or inactive (thermo-siphon) systems which are installed in either a close-coupled or split-systems configuration. Solar geysers can be installed on a household as new systems or retrofitted to existing geysers. All solar geysers are rated by the size of the storage tank e.g. 100L, 150L, etc.</p>
                     </div>
                     <div>
+                        <img class="center" src="assets/images/02.png" style="width:55px; margin-top:50px;">
+                        <h1 class="txt-center">Gas Geysers</h1>
                         <p class="center-align">Gas geysers differ from solar or conventional geysers in that they heat water at the point-of-use and as-and-when-needed through the use of a pilot flame/burner contained within the geyser. All gas geysers are rated by the flow rate required by the type of use e.g. 6L/min, 10L/min, etc.</p>
                     </div>
                     <div>
+                        <img class="center" src="assets/images/03.png" style="width:80px; margin-top:50px;">
+                        <h1 class="txt-center">Solar PV Kits</h1>
                         <p class="center-align">Solar PV Kits are solar systems made up of pre-selected components, and come in the form of grid-tie or off-grid systems. Grid-tie systems usually consist of solar panels and grid-tie inverters which tie into your main power supply, supplementing your electricity supply with solar. Off-grid systems contain additional components such as charge controllers and battery banks, designed to power your house independently of grid electricity. Some grid-tie systems also make use of batteries, depending on the need of the user. All Solar PV Kits are rated in kW and are based on the average power consumption of your household in month.</p>
                     </div>
                 </div>
+                    
+                </div>
+                <div class="col-xs-1"></div>
             </div>
         </div>
     
@@ -172,6 +178,40 @@
                     <h1 class="txt-center white">GET IN TOUCH</h1>
                     <p class="txt-center caption white">Send us a message or look us up on social media</p>
                     <hr class="hr-white">
+                    
+                    <div class="col-xs-12"></div>
+                    <div class="col-xs-12"></div>
+                    <div class="col-xs-12"></div>
+                    
+                    <form id="contact-form" method="post" action="contact.php" role="form">
+
+                        <div class="messages"></div>
+
+                        <div class="controls">          
+                        <div class="form-group">
+                            <label class="sr-only" for="form_name">Full Name</label>
+                            <input id="form_name" type="text" name="name" class="r-form-first-name form-control" placeholder="Full Name" required="required" data-error="Full name is required">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group mrt-20">
+                            <label class="sr-only" for="form_email">Email</label>
+                            <input id="form_email" type="email" name="email" class="r-form-email form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group mrt-20">
+                            <label class="sr-only" for="form_phone">Contact Number</label>
+                            <input id="form_phone" type="tel" name="phone" class="r-form-last-name form-control" placeholder="Contact Number">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group mrt-20">
+                            <label class="sr-only" for="form_message">Message</label>
+                            <textarea id="form-message" name="message" placeholder="Message" class="r-form-about-yourself form-control" required data-error="Please, leave us a message."></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <button type="submit" class="btn btn-grey mrt-30 btn-send" value="Send message">SEND MESSAGE</button>
+                        </div>
+
+                    </form>
                 </div>
             </div>
         </div>
