@@ -168,7 +168,7 @@ a:focus {
 }
 
 .txt-center {
-    text-align: center;
+    text-align: center !important;
 }
 
 h1 {
@@ -562,6 +562,263 @@ img.scew-img {
   -ms-transform: translate(0px, 0px);
   transform: translate3d(0px, 0px, 0px);
 }
+
+/**************************/
+/*POP UP MODALS*/
+/*************************/
+
+
+.modal-sideone {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    height:60px;
+    margin-top:55px;
+}
+
+.text-light {
+    font-weight: 100;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.btn-grey {
+    background-color: #808080;
+    color:#fff;
+}
+
+.btn-grey:hover {
+    background-color: #565656;
+    color:#fff;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.font200 {
+    font-weight: 200;
+}
+
+.modal-register {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+
+.modal-open .modal-register {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.pagination-custom {
+    border-radius: 15px;
+    width:50px;
+    height:6px;
+    padding:0px;
+    background: #F8777A;
+    
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pagination-custom-active {
+    border-radius: 15px;
+    width:50px;
+    height:6px;
+    padding:0px;
+    background: #fff; 
+}
+
+.slide-carousel {
+    height:60px; 
+    width:auto; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slide-carousel-txt {
+    text-align:center; 
+    color:#fff; 
+    font-weight:100; 
+    margin:40px;
+}
+
+.owl-carousel {
+    height:320px;
+}
+                
+.item {
+    background-color: #fff;
+    height:320px; 
+    padding-top: 60px;
+}
+
+.item-one{
+    background-color: #ef4141
+}
+
+.item-two{
+    background-color: #0066d2;
+}
+.item-three{
+    background-color: #2b2e33;
+}
+.item-four{
+    background-color: #ffad00;
+}
+.item-five{
+    background-color: #ababab;
+}
+
+
+
+
+@media screen and (min-width:768px) {
+  .v-center-2 {
+    height: 30%;
+    overflow: visible;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;      
+  }
+}
+
+@media screen and (max-width:768px) {
+  .v-center-2 {
+    height: 30%;
+    overflow: visible;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+}
+
+
+
+.blue {
+    background-color:#0066d2;
+}
+
+@media screen and (min-width:777px) {
+  .modal-pop {
+    height:400px;      
+  }
+}
+
+@media screen and (max-width:777px) {
+  .modal-pop {
+    height:220px;
+}
+}
+
+@media screen and (min-width:767px) {
+  .modal-pop-r {
+    height:450px;      
+  }
+}
+
+@media screen and (max-width:767px) {
+  .modal-pop-r {
+    height:220px;
+}
+}
+
+
+.red {
+    background-color:#ef4141;
+}
+
+@media screen and (max-width:777px) {
+  .modal-pop-white-r {
+    background-color:#fff; 
+    height:500px;
+}
+}
+
+@media screen and (min-width:767px) {
+  .modal-pop-white-r {
+    background-color:#fff; 
+    height:450px;      
+  }
+}
+
+
+
+
+
+.btn-custom-dropdown {
+  color: #9C9999;
+  background-color: #fff;
+  border-color: #CCCCCC;
+  height:45px;
+}
+
+.btn-custom-dropdown:active,
+.btn-custom-dropdown.active,
+.open > .dropdown-toggle.btn-custom-dropdown {
+  background-image: none;
+}
+
+.btn-custom-dropdown:active:hover,
+.btn-custom-dropdown.active:hover,
+.open > .dropdown-toggle.btn-custom-dropdown:hover,
+.btn-custom-dropdown:active:focus,
+.btn-custom-dropdown.active:focus,
+.open > .dropdown-toggle.btn-custom-dropdown:focus,
+.btn-custom-dropdown:active.focus,
+.btn-custom-dropdown.active.focus,
+.open > .dropdown-toggle.btn-custom-dropdown.focus {
+  color: #9C9999;
+  background-color: #fff;
+  border-color: #CCCCCC;
+}
+
+.btn-custom-dropdown:active,
+.btn-custom-dropdown.active,
+.open > .dropdown-toggle.btn-custom-dropdown {
+  color: #9C9999;
+  background-color: #fff;
+  border-color: #CCCCCC;
+}
+
+.btn-custom-dropdown:hover {
+  color: #CCCCCC;
+  background-color: #fff;
+  border-color: #CCCCCC;;
+}
+
+.btn-custom-dropdown:focus,
+.btn-custom-dropdown.focus {
+  color: #CCCCCC;
+  background-color: #fff;
+  border-color: #CCCCCC;
+}
+
+.input-custom {
+    text-align: left;
+    margin-top: -7px;
+    margin-left: -10px;
+}
+
+.center-v-slide {
+    font-size:20px; 
+    padding:2% 10% 2% 10%;
+}
+
+
 
 /**************************/
 /*FOOTER */
