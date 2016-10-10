@@ -155,6 +155,12 @@
 /*GENERAL*/
 /*************************/
 
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -258,6 +264,31 @@ hr {
 /*BUTTON*/
 /*************************/
 
+
+.btn-top-header {
+  position: relative;
+  vertical-align: top;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #00A7C9;
+  border: 0;
+  border-bottom: 3px solid #007DB1;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -3px #007DB1;
+  box-shadow: inset 0 -3px #007DB1;
+}
+.btn-top-header:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
 /*STYLE ONE*/
 .btn-header{
     width:100%;
@@ -303,6 +334,7 @@ hr {
 /**************************/
 /*TRIANGLES*/
 /*************************/
+
 .scew-left-to-right{
     background: #215B72;
     position: relative;
@@ -387,7 +419,6 @@ hr {
     -webkit-backface-visibility: hidden;
 }
 
-
 .triangle-down{
     box-sizing: content-box;
     width: 50%; 
@@ -398,6 +429,7 @@ hr {
     position: relative;
     z-index: 20;
 }
+
 .triangle-down div {
     width: 0;
     height: 0;
@@ -408,10 +440,6 @@ hr {
     border-top: 250px solid #262626; 
 }
 
-
-
-
-
 img.scew-img {
   -webkit-clip-path: polygon(0 0, 100% 22%, 100% 100%, 0 78%);
   clip-path: polygon(0 0, 100% 22%, 100% 100%, 0 78%);
@@ -421,13 +449,11 @@ img.scew-img {
   z-index: 400;
 }
 
-
 .scew-right-to-left-two{
     background: #262626;
     position: relative;
 /*    overflow: hidden;*/
 }
-
 
 .scew-right-to-left-two:before {
     content: '';
@@ -444,9 +470,6 @@ img.scew-img {
     transform: skewY(-7.5deg);
     -webkit-backface-visibility: hidden;
 }
-
-
-
 
 /**************************/
 /*WHY CHOOSE FUSER*/
@@ -510,6 +533,36 @@ img.scew-img {
     color:#979797 !important;
 }
 
+
+/**************************/
+/* ANIMATE */
+/*************************/
+
+.bounce-up .subject {
+  opacity: 0;
+  -moz-transition: all 1000ms ease-out;
+  -webkit-transition: all 1000ms ease-out;
+  -o-transition: all 1000ms ease-out;
+  transition: all 1000ms ease-out;
+  -moz-transform: translate3d(0px, 200px, 0px);
+  -webkit-transform: translate3d(0px, 200px, 0px);
+  -o-transform: translate(0px, 200px);
+  -ms-transform: translate(0px, 200px);
+  transform: translate3d(0px, 200, 0px);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.bounce-up.in-view .subject {
+  opacity: 1;
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
+
 /**************************/
 /*FOOTER */
 /*************************/
@@ -542,78 +595,6 @@ img.scew-img {
     text-align: center;
 }
 
-
-
-
-body {
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	margin: 0px;
-	background: #5D5D5D;
-}
-
-a {	color:#E85D32; }
-
-a:hover { }
-
-a:visited { }
-
-.left-4 {width:275px; float:left;}
-.right-3 {width:855px; float:right;}
-.padding10 {padding: 10px;}
-.float-left {float:left;}
-.float-right {float:right;}
-
-.loginbar {background:#E9E9E9; color:#333; padding:7px; font-size:12px; text-align:right;}
-.admin_links {float: left;}
-.loginarea {float:right;}
-.login-left {float:left;}
-.login-right {float:right;}
-
-.clear {clear:both;}
-
-.header a {color: #676767;text-decoration:none;}
-.header a:visited {color: #676767;}
-.logo {text-align:left;padding-top:0px;}
-.logo img {margin:0px;padding:0px;}
-
-.content {background: #FFF;min-height: 500px; padding-top: 50px;}
-.content-box {max-width: 1400px; padding:20px; margin: auto; color:#606060;}
-/*.content-box h1 {color:#00A5C8; font-size:36px;}*/
-
-
-a .home-btn {color:#FFF; font-size:18px; font-weight:bold;}
-a .home-btn:hover {background:#0E3E77;}
-.home-btn {width:250px; background:#097EC2; padding: 15px 0px 15px 0px;}
-
-.card-box{}
-.cards {background:#FFF; border:#D1D1D1 solid 1px; border-radius:5px;}
-.card1 {}
-.card2 {float:left;width:47%;margin-right:2%;}
-.card3 {float:left;width:30.6%;margin-right:2%;}
-.card4 {float:left;width:22.5%;margin-right:2%;}
-
-.menu-bar {background:#4A4A4A;}
-.menu {list-style: none;margin: 0px;padding: 0px;}
-.menu a {margin:0px;padding:0px;}
-.menu a li {margin: 0px;display: block;float:left;padding:12px 40px 12px 40px;background:#4A4A4A;color: #FFF;font-size:14px;}
-.menu li:hover {color: #FFF;background: #727272;}
-.menu li:visited {color: #575757;}
-
-.admin-menu {background: #eeeeee; padding: 20px 20px 10px 20px;}
-
-.view-user {}
-.view-user ul {margin: 0px;padding: 0px;list-style: none;}
-.view-user ul li {display: block;background: #FFF;padding: 5px;margin-bottom: 5px;border: 1px solid #ECECEC;border-radius: 5px;}
-.view-user ul li p {display: inline-block;margin:0px;padding:0px;width: 170px;font-weight:bold;}
-
-.search-choice-bkg {
-	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAG0lEQVQIW2N89uzZfwYcgBEkycXFhVV60EkCALuOGpOTOEMrAAAAAElFTkSuQmCC);
-	min-height: 500px;
-}
-
-.search-choice-box-auto {display: block; background: #5cb85c; padding: 15px; font-size: 30px; color: #FFF; text-align: center; border-radius: 10px;}
-.search-choice-box-auto:hover {background: #449d44; color: #FFF; text-decoration: none;}
-
 .search-choice-box-manual {
 	display: block;
 	background: #5bc0de;
@@ -623,42 +604,3 @@ a .home-btn:hover {background:#0E3E77;}
 	text-align: center;
 	border-radius: 10px;
 }
-
-.search-choice-box-manual:hover {
-	background: #31b0d5;
-	color: #FFF;
-	text-decoration: none;
-}
-
-.search-choice-description {
-	padding: 15px;
-}
-
-
-.vspace10 {height: 10px;}
-
-.question-child {color: #6A6A6A;}
-
-.footer-menu {
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-.footer-menu ul {
-	list-style: none;
-	margin: 0px;
-	padding: 0px;
-}
-
-.footer-menu ul li {
-	display: inline-block;
-	margin: 5px 20px 5px 20px;
-}
-
-.childq {
-	padding-left: 20px;
-}
-
-.btn-wizard-select {display: block; background: #5bc0de; padding: 25px 0px 25px 0px; font-size: 30px; color: #FFF; text-align: center; border-radius: 10px;}
-.btn-wizard-select:hover {background: #31b0d5; color: #FFF; text-decoration: none;}
