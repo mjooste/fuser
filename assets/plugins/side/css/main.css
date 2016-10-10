@@ -1,6 +1,6 @@
 /* MENU CONF*/
 a:hover {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 a:focus, a:visited {
