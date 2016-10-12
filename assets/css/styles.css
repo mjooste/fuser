@@ -257,9 +257,37 @@ hr {
 .navbar-brand > img{
     height:30px;
     left:3% !important;
+    margin-top:-4px;
+}
+
+ 
+#navbar-sticky-scroll {
+    background: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.2);
+    border-radius: 0px;
+    padding: 4px;
+    position: fixed;
+    left: 0; 
+    right: 0;
+    top: 0;
+    z-index: 700;
+}
+body.scrolled #navbar-sticky-scroll {
+    background: rgba(255, 255, 255, 0.8);
+}
+body.scrolled #navbar-sticky-scroll:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+  
+
+.navbar-sticky-scroll {
+   position: fixed;  
 }
 
 
+.side-logo {
+    width:60px;
+}
 /**************************/
 /*BUTTON*/
 /*************************/

@@ -24,6 +24,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-light-bulb:before {
+  content: "\e90a";
+}
+.icon-cancel:before {
+  content: "\e909";
+}
+.icon-twitter:before {
+  content: "\e908";
+}
+.icon-left-arrow:before {
+  content: "\e905";
+}
+.icon-right-arrow:before {
+  content: "\e906";
+}
+.icon-hamburger:before {
+  content: "\e907";
+}
 .icon-envelope:before {
   content: "\e900";
 }

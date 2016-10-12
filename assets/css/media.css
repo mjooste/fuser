@@ -5,8 +5,8 @@
     .hero {
         height:600px !important;
     }  
-    .hero-content > img {
-        width:60%;
+    .hero-img {
+        width:65% !important;
         margin-top:0%;
         margin-bottom: 10%;
     }
@@ -60,7 +60,7 @@
     .hero {
         height:700px !important;
     } 
-    .hero-content > img {
+    .hero-img {
         width:60%;
         margin-top:0%;
         margin-bottom: 10%;
@@ -118,7 +118,7 @@
      .hero {
         height:700px !important;
     } 
-    .hero-content > img {
+    .hero-img{
         width:40%;
         margin-top:0%;
         margin-bottom: 5%;
@@ -141,7 +141,8 @@
         height: 200px;
     }
     .why-choose-p {
-        margin-top:35%;
+        margin-top:36%;
+        margin-bottom:5%;
     }
     /*section3*/
     .quote {
@@ -156,7 +157,8 @@
     }
     /*section 4*/
     .products {
-         margin-top:200px;
+        margin-top:26%;
+        margin-bottom:7%;
     }
     .social-media a{
         font-size:30px;
@@ -197,12 +199,12 @@
 /**********************/
 @media (min-width:993px) and (max-width:1200px) {
     p {
-        font-size: 16px !important;
+        font-size: 18px !important;
     }
      .hero {
         height:810px !important;
     } 
-    .hero-content > img {
+    .hero-img {
         width:40%;
         margin-top:0%;
         margin-bottom: 5%;
@@ -234,7 +236,8 @@
          margin-top:-33%;
     }
     .why-choose-p {
-        margin-top:35%;
+        margin-top:32%;
+        margin-bottom:5%;
     }
     /*section3*/
     .quote {
@@ -251,19 +254,31 @@
     .products {
          margin-top:200px;
     }
+    .sub-heading > h1{
+        font-size: 35px !important;
+    }
+    .sub-heading > p{
+        font-size: 18px !important;
+    }
+    .body-heading > p {
+        font-size: 20px !important;
+    }
 }
 
 /**********************/
 /*large*/
 /**********************/
-@media (min-width:1201px) and (max-width:1800px) {
-     .hero {
-        height:870px !important;
+@media (min-width:1201px) and (max-width:1700px) {
+    p {
+        font-size: 20px !important;
+    }
+    .hero {
+        height:1200px !important;
     } 
-    .hero-content > img {
+    .hero-img {
         width:40%;
         margin-top:0%;
-        margin-bottom: 200px !important;
+        margin-bottom: 5% !important;
     }
     .hero-content > h1 {
         font-size: 25px !important;
@@ -272,18 +287,18 @@
     }
     /*section2*/
     .about {
-        margin-top:8%;
-        margin-bottom: 6%;
+        margin-top:12%;
+        margin-bottom: 8%;
     }
     /*section3*/
     .scew-left-to-right:before{
-        height: 200px; 
+        height: 250px; 
     }
     .scew-right-to-left:before {
-        height: 200px;
+        height: 250px;
     }
      .triangle-down{
-        padding-top: 5% !important;
+        padding-top: 8% !important;
          height:200px;
     }
     .triangle-down div {
@@ -291,31 +306,35 @@
     }
     .block {
         height:250px;
-        margin-top:50px;
+        margin-top:78px;
         background-color: #262626!important;
         position:relative; 
         z-index:600;
     }
     .why-choose {
-         margin-top:-33%;
+         margin-top:-28%;
     }
     .why-choose-p {
-        margin-top:35%;
+        margin-top:28%;
     }
     /*section3*/
     .quote {
-        margin-top:80px;
+        margin-top:8%;
     }
     .g-quote > h2{
-        margin-top: -260px !important;
+        margin-top: -300px !important;
     }
     .scew-right-to-left-two:before {
         height:250px;
-        margin-top:-280px;
+        margin-top:-335px;
+    }
+    img.scew-img {
+        height:500px !important;
     }
     /*section 4*/
     .products {
-         margin-top:200px;
+         margin-top:20%;
+         margin-bottom: 5%;
     }
 }
 
@@ -323,11 +342,11 @@
 /**********************/
 /* extra large*/
 /**********************/
-@media @media (min-width:1801px) {
-     .hero {
-        height:870px !important;
+@media @media (min-width:1701px) {
+    .hero {
+        height:1000px !important;
     } 
-    .hero-content > img {
+    .hero-img {
         width:40%;
         margin-top:-10%;
         margin-bottom: 20%;
