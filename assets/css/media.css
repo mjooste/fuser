@@ -47,9 +47,17 @@
     /*section 4*/
     .products {
          margin-top:200px;
+         margin-bottom:5%;
     }
     .social-media a{
         font-size:20px;
+    }
+    .owl-prev {
+        margin-left: -45px;
+    }
+    .owl-next {
+        margin-right: -45px;
+        margin-top:-40px;
     }
 }
 
@@ -105,6 +113,13 @@
     }
     .social-media a{
         font-size:25px;
+    }
+    .owl-prev {
+        margin-left: -50px;
+    }
+    .owl-next {
+        margin-right: -50px;
+        margin-top:-40px;
     }
 }
 
@@ -162,6 +177,13 @@
     }
     .social-media a{
         font-size:30px;
+    }
+    .owl-prev {
+        margin-left: -50px;
+    }
+    .owl-next {
+        margin-right: -50px;
+        margin-top:-40px;
     }
 }
 
@@ -263,6 +285,13 @@
     .body-heading > p {
         font-size: 20px !important;
     }
+    .owl-prev {
+        margin-left: -50px;
+    }
+    .owl-next {
+        margin-right: -50px;
+        margin-top:-40px;
+    }
 }
 
 /**********************/
@@ -336,6 +365,13 @@
          margin-top:20%;
          margin-bottom: 5%;
     }
+    .owl-prev {
+        margin-left: -150px;
+    }
+    .owl-next {
+        margin-right: -150px;
+        margin-top:-40px;
+    }
 }
 
 
@@ -401,5 +437,12 @@
     /*section 4*/
     .products {
          margin-top:200px;
+    }
+    .owl-prev {
+        margin-left: -200px;
+    }
+    .owl-next {
+        margin-right: -200px;
+        margin-top:-40px;
     }
 }

@@ -19,10 +19,22 @@
   text-transform: none;
   line-height: 1;
 
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
+
+
+.owl-prev {
+    background-color: #9B9B9B;
+    padding:10px 25px 10px 15px;
+    color:#fff;
+    width:20px
+}
+.owl-next {
+    background-color: #9B9B9B;
+    padding:10px 25px 10px 15px;
+    color:#fff;
+    width:20px;
+}
+
 
 .icon-light-bulb:before {
   content: "\e90a";
