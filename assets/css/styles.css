@@ -238,16 +238,17 @@ hr {
 /*************************/
 
 .hero {
-    background-image:url(../images/hero.png) !important;
     width: 100%;
     max-width: 100%;
     background-size:cover;
     position:relative;
 }
 
+/*
 .hero-content {
     margin-top:15%;
 }
+*/
 
 .hero-content > h1{
     margin-top:4%;
